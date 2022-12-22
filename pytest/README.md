@@ -12,13 +12,11 @@ Just run tests on particular subfolder(s) or file(s)
 pytest <subfolder_name> <file_name> <subfolder_name_2> ...
 ```
 
-
 - [pytest standard test discovery rules](https://docs.pytest.org/en/7.2.x/explanation/goodpractices.html#test-discovery)
-
 
 ## Organization best practice
 
-```
+```bash
 pyproject.toml
 src/
     mypkg/
